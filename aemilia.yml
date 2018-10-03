@@ -1,6 +1,6 @@
 build:
   artifacts:
-    baseDirectory: /
+    baseDirectory: dev-portal/public
     discardPaths: true
     files:
       - '**/*'
