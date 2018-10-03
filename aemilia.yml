@@ -13,7 +13,9 @@ build:
         - cd dev-portal
         - npm install
     build:
-      commands: 'npm run build'
+      commands:
+        - cd dev-portal
+        - npm run build
     post_build:
       commands: []
 env:
